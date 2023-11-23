@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #340154;
+}
+
+.content {
+    display: flex;
+    text-align-last: center;
+}
+h1, h5, h4, p {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .sidebar-container {
+        display: none;
+    }
+}
+

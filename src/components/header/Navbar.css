@@ -1,0 +1,30 @@
+.nav--bar {
+  display: flex;
+  align-items: center;
+  background-color: #5d0274 ;
+  height: 120px;
+  padding: 30px 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+    
+}
+.nav--icon {
+  height: 90px;
+  margin-right: 20px;
+  border-radius: 20%;
+}
+
+.sign-out-btn {
+  margin: 30px;
+  color: white;
+  background-color: rgb(0, 26, 255);
+  border-radius: 40%;
+}
+.nav--logo_text {
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 42px;
+  color: white;
+  background-color: #5d0274;
+}

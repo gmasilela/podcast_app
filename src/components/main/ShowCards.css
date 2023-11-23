@@ -1,0 +1,17 @@
+.custom-card{
+    width: 220px;
+    margin: 0.5rem;
+    text-align: center;
+}
+.custom-card:hover {
+    background-color: 0 4px 8px white,
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text-body-secondary{
+    background-color: aqua;
+}
