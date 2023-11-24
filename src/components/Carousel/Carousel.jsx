@@ -36,13 +36,11 @@ export default function PodcastCarousel() {
   }
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className='slider--opt'>
       {podcasts.map((podcast) => (
         <div key={podcast.id}>
-          <img
+          <img className='image'
             src={podcast.image}
-            alt={`Thumbnail for ${podcast.title}`}
-            style={{ width: '100%', height: '300px' }}
           />
         </div>
       ))}

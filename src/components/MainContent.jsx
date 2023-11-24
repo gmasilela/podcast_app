@@ -143,6 +143,8 @@ export default function MainContent () {
     }
 
     return (
+        <>
+        <PodcastCarousel />
         <div className='content'>
             <div className="sidebar-container"> 
             <Sidebar>
@@ -176,7 +178,6 @@ export default function MainContent () {
                 </Card>
             </Sidebar>
             </div>
-            {/* <PodcastCarousel /> */}
             <div className='content--container'>
                 <div className='favorite-container'>{favoriteClicked && <FetchFavouriteEpisode />}</div>
                 <div className="show-container">
@@ -194,6 +195,7 @@ export default function MainContent () {
                         />
                     }
                 </div>
-        </div>      
+        </div>
+        </>      
     )
 }

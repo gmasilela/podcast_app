@@ -23,8 +23,33 @@
 }
 .nav--logo_text {
   margin-right: auto;
-  font-weight: 700;
+  font-weight: 700PX;
   font-size: 42px;
   color: white;
   background-color: #5d0274;
+}
+@media (max-width: 768px) {
+  .sign-out-btn {
+    margin: 60px;
+    margin-right: 0px;
+    color: white;
+    background-color: rgb(0, 26, 255);
+    border-radius: 40%;
+  }
+  .nav--icon {
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 20%;
+  }
+  .nav--logo_text {
+    margin-right: auto;
+    font-weight: 100PX;
+    font-size: 15px;
+    color: white;
+    background-color: #5d0274;
+  }
+
+  .sidebar-container {
+      margin-left: 30px;
+  }
 }
