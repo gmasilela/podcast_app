@@ -6,4 +6,4 @@ The app is still a work in progress, but I managed to meet some of the 'USER STO
 Use the link below for the overview of the website. [The website was deployed using Netlify.]
 
 netlify URL:
-https://6562a8d61fd7771ea912aabf--thriving-crumble-5633ef.netlify.app/
+https://gmm-world-podweb.netlify.app/
